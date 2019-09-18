@@ -1,0 +1,60 @@
+body{
+}
+.btn-primary1{
+	background-color: orange;
+}
+.btn-primary1:hover{
+	background-color: black;
+}
+.navbar{
+	opacity: 0.3;
+	border: solid black 2px;
+}
+.jumbotron{
+	margin-top: 50px;
+}
+#button1{
+	/*start*/
+	display: flex;
+	align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+         /*this is to center a Div*/
+         margin-bottom: 20px;
+}
+.btn1{
+          font-size: 20px;
+          border-radius: 8px;
+          width: 250px;
+}
+.btn1:hover{
+	background-color: black;
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.container{
+	margin-top: 5px; 
+	margin-bottom: 50px;
+}
+.col{
+	color: white;
+	padding: 10px;
+	text-align: center;
+	font-size: 50px;
+}
+#card{
+	/*start*/
+	display: flex;
+	align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        /*this is to center a Div*/
+        margin-bottom: 50px;
+	
+}
+.card{
+	justify-content:center;
+	text-align: center;
+	box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
